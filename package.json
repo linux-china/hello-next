@@ -1,14 +1,13 @@
 {
   "name": "hello-next",
   "version": "1.0.0",
-  "description": "Next App",
+  "description": "Next.js App",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
-    "test": "jest"
+    "export": "next build && next export"
   },
   "keywords": [
     "next",
@@ -17,14 +16,14 @@
   "author": "linux_china",
   "license": "ISC",
   "dependencies": {
-    "next": "^10.0.5",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "^10.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^14.14.22",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "typescript": "^4.1.3"
+    "@types/node": "^15.3.0",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "typescript": "^4.2.4"
   }
 }
